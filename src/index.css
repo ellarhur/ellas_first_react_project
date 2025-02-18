@@ -19,16 +19,21 @@ h1 {
   height:50px;
   margin-bottom:20px;
   text-align: left;
+  list-style: none;
+  flex-direction: row;
+  display: flex;
 }
 
-.navigation {
+.nav {
   padding: 10px;
 }
 
-.navigation a {
+.nav a {
   color: #0D05F2;
   text-decoration: none;
   margin: 0 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar {
@@ -38,6 +43,8 @@ h1 {
   height: 500px;
   position: fixed;
   text-align: left;
+  list-style: none;
+  flex-direction: column;
 }
 
 .main {
@@ -52,7 +59,6 @@ h1 {
 
 .footer {
   background-color: #F25749;
-  color: white;
   padding: 10px;
   text-align: center;
   height:50px;

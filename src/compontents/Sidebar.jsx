@@ -1,10 +1,14 @@
 // Sidebar.jsx
 import React from 'react';
+import Navigation from './Navigation'
 
-export default function Sidebar() {
+
+function Sidebar() {
   return (
     <div className="sidebar">
-      Sidebar
+        <Navigation />
     </div>
   );
 }
+
+export default Sidebar
