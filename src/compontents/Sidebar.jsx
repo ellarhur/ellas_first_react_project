@@ -1,10 +1,10 @@
-import React from 'react'
+// Sidebar.jsx
+import React from 'react';
 
 export default function Sidebar() {
   return (
-    <div>
-               <header className="sidebar">Sidebar</header>;
-
+    <div className="sidebar">
+      Sidebar
     </div>
-  )
+  );
 }

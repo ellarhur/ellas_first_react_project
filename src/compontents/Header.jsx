@@ -3,7 +3,9 @@ import React from 'react'
 const Header = () => {
   return (
     <div>
-         <header className="header">Min Header</header>;
+         <header className="header">
+            Header
+         </header>
     </div>
   )
 }

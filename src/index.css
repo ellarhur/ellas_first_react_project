@@ -1,24 +1,8 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  place-items: top;
+  width:100vh;
   min-height: 100vh;
   background-color: #fff;
 }
@@ -30,9 +14,11 @@ h1 {
 
 .header {
   background-color: #8DD5F2;
-  color: white;
   padding: 20px;
-  text-align: center;
+  width:100vh;
+  height:50px;
+  margin-bottom:20px;
+  text-align: left;
 }
 
 .navigation {
@@ -48,15 +34,19 @@ h1 {
 .sidebar {
   background-color:#F2BBC9;
   width: 200px;
-  padding: 15px;
-  height: 100vh;
+  padding: 20px;
+  height: 500px;
   position: fixed;
+  text-align: left;
 }
 
 .main {
-  margin-left: 220px;
+  margin-left: 265px;
+  height:500px;
   padding: 20px;
   background-color: #F2D6B3;
+    text-align: left;
+
 }
 
 
@@ -65,4 +55,7 @@ h1 {
   color: white;
   padding: 10px;
   text-align: center;
+  height:50px;
+  margin-top:20px;
+  text-align: left;
 }

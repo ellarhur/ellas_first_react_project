@@ -15,6 +15,7 @@ function App() {
     <Sidebar />
     <Main />
     <Footer />
+
     </>
   )
 }
