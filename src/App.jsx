@@ -1,38 +1,20 @@
 import './App.css'
+import Header from './compontents/Header'
+import Main from './compontents/Main'
+import Navigation from './compontents/Navigation'
+import Sidebar from './compontents/Sidebar'
+import Footer from './compontents/Footer'
 
 function App() {
 
 
-  
+
   return (
     <>
-    <Header>
-      <Navigation>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </Navigation>
-    </Header>
-
-    <Sidebar>
-      <Navigation>
-      <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </Navigation>
-    </Sidebar>
-
-    <Main>
-      <p>Main</p>
-    </Main>
-
-    <Footer>
-      <p>Footer</p>
-    </Footer>
+    <Header />
+    <Sidebar />
+    <Main />
+    <Footer />
     </>
   )
 }
