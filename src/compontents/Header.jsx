@@ -5,8 +5,9 @@ import Navigation from './Navigation'
 const Header = () => {
   return (
     <div>
+            <Navigation/>
          <header className="header">
-         <Navigation />
+         <nav id='header-nav'></nav>
          </header>
     </div>
   )

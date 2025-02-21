@@ -2,10 +2,11 @@
 import Navigation from './Navigation'
 
 
-function Sidebar() {
+const Sidebar = () => {
   return (
     <div className="sidebar">
-        <Navigation />
+      <Navigation/>
+        <nav id='sidebar-nav'></nav>
     </div>
   );
 }

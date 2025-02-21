@@ -23,18 +23,24 @@ h1 {
   flex-direction: row;
   display: flex;
 }
-
-.nav {
+#header-nav {
   padding: 10px;
-}
-
-.nav a {
   color: #0D05F2;
   text-decoration: none;
   margin: 0 10px;
   display: flex;
   flex-direction: column;
 }
+
+#sidebar-nav {
+  padding: 10px;
+  color: #0D05F2;
+  text-decoration: none;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
 
 .sidebar {
   background-color:#F2BBC9;
